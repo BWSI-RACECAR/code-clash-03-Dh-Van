@@ -43,9 +43,8 @@ class Solution:
             #type center: int
             #type res: tuples of int
             #return type: float
-            error = center - (res[0] / 2)
             #TODO: Write code below to return a float with the solution to the prompt.
-            return (error) * (2/res[1]) - 1
+            return (center) * (2 / res[0]) - 1
             pass
         
         
