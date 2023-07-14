@@ -45,7 +45,7 @@ class Solution:
             #return type: float
             error = center - (res[0] / 2)
             #TODO: Write code below to return a float with the solution to the prompt.
-            return (2 * error) * (2/res[1]) - 1
+            return (error) * (2/res[1]) - 1
             pass
         
         
